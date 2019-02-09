@@ -124,8 +124,8 @@ for i in z
 print("values ofd[1] array")
 print(d[1])
 
-var e = c[3...10]
-print(e[3],e[5],e[7])
+var e = c[3...8]
+print(e[4],e[5],e[7])
 var r = Array<Int>()
 r.append(5000)
 print(r[0])
@@ -145,7 +145,33 @@ print(s1)
 
 var l = [1:"abc",2:"hello"]
 
+print("Dictionary example")
+
 print(l)
+
+l[3]="hello world"
+print(l)
+
+var country = Dictionary<String,String>()
+country.updateValue("India", forKey: "IND")
+country.updateValue("china", forKey: "chi")
+country.updateValue("brazil", forKey: "brz")
+
+for i in country{
+    print(i)
+    print(i.key,i.value)
+    
+    
+    for(k,v) in country.keys
+    {
+        print(k)
+    }
+    
+    for v in country.values
+    {
+        print(v)
+    }
+}
 
 
 

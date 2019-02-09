@@ -98,10 +98,44 @@ for x in b
 }
 
 var c = [Int]()
-c.append(100)
 c.append(200)
 c.append(300)
-print(c[0],c[1],c[2])
+print(c[0],c[1])
+
+c+=[111,222,333]
+
+let d = b+c
+for i in d
+{
+    print(i)
+}
+
+print("values of d[1..3] array")
+
+var z = d[1...3]
+
+print(z)
+z[1]=2020
+
+for i in z
+{
+    print(i)
+}
+print("values ofd[1] array")
+print(d[1])
+
+var e = c[3...10]
+
+print(e)
+
+print(e[3],e[5],e[7])
+
+var r = Array<Int>()
+r.append(5000)
+print(r[0])
+
+
+
 
 
 

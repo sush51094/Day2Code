@@ -30,9 +30,63 @@ print(str.hasPrefix("hello"))
 print(p.hasSuffix("me"))
 print(s.hasPrefix("hello"))
 print(str.uppercased())
-print(str.customMirror)
+for c in str
+{
+    print(c)
+}
 
+var x = 5...10
 
+for i in x
+{
+    print(i)
+}
+
+print(x)
+
+var t = 1..<10
+
+for i in t
+{
+    print(i)
+
+}
+
+var a = 1...
+
+for i in a
+{
+    
+    print(i)
+    if(i==20)
+    {
+        break
+    }
+    
+}
+
+var y = ...50
+if(y.contains(-1000))
+{
+    print("true")
+    
+}
+
+else
+{
+    print("false")
+}
+
+if(y.contains(51))
+{
+    print("true")
+    
+}
+    
+else
+{
+    print("false")
+}
 
 
 

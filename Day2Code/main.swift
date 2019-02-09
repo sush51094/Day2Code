@@ -125,16 +125,27 @@ print("values ofd[1] array")
 print(d[1])
 
 var e = c[3...10]
-
-print(e)
-
 print(e[3],e[5],e[7])
-
 var r = Array<Int>()
 r.append(5000)
 print(r[0])
 
+var s1 = Set<String>()
+s1.insert("canada")
+s1.insert("USA")
+s1.insert("India")
+s1.insert("Russia")
+s1.insert("china")
+s1.insert("Brazil")
 
+print(s1)
+
+s1.insert("india")
+print(s1)
+
+var l = [1:"abc",2:"hello"]
+
+print(l)
 
 
 

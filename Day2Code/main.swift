@@ -89,6 +89,16 @@ else
 }
 
 
+var b = [10,20,30,40,50]
+
+for x in b
+{
+    print(b.count)
+    print(b[0],b[1],b[4])
+}
+
+
+
 
 
 

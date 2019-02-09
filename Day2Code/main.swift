@@ -97,7 +97,11 @@ for x in b
     print(b[0],b[1],b[4])
 }
 
-
+var c = [Int]()
+c.append(100)
+c.append(200)
+c.append(300)
+print(c[0],c[1],c[2])
 
 
 
